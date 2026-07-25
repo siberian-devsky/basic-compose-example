@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: green;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 16px;
+}
+.hiddenClock {
+    color: orange;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 16px;
+    justify-items: center;
+    font-size: x-large;
+}
+button {
+    width: fit;
+    height: fit;
+    background: transparent;
+    color: #ff00ff80;
+    font-size: lg;
+    border: 2px solid #ff00ff80;
+    border-radius: 20px;
+    padding: 8px;
+}

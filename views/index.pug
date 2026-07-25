@@ -1,0 +1,13 @@
+//- index.pug
+html
+  head
+    title 🐳
+    link(rel="stylesheet", href="styles.css")
+  body
+    button(onClick="toggleTimeVisibility()") Click Me
+    h1 hello from my tiny docker container
+    //- display: flex; flex-direction: row; gap: 20px; 
+    div.hiddenDiv(style="display: flex; flex-direction: column; justify-items: center; opacity: 0")
+      button.hiddenClockButton(onClick="toggleLiveClock()") Toggle Live Clock
+      div.hiddenClock= clock
+  script(src="utils.js").
