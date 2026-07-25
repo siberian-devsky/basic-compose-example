@@ -36,8 +36,8 @@ services:
     db:
         image: mysql:lts
         environment:
-            MYSQL_ROOT_PASSWORD: devone
-            MYSQL_DATABASE: appdb
+            MYSQL_ROOT_PASSWORD:
+            MYSQL_DATABASE:
         volumes:
             - mysql:/var/lib/mysql
         ports:

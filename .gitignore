@@ -2,3 +2,4 @@ compose.yml
 compose.prod.yml
 node_modules/
 .vscode/
+*.swp
